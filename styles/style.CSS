@@ -49,6 +49,8 @@ nav>button {
 
 .banner-body {
     padding: 26px 221px 45px 221px;
+    width: 998px;
+    height: 581px;
 }
 
 .banner-title {
@@ -79,8 +81,98 @@ nav>button {
     font-weight: 600;
     width: 244px;
     height: 65px;
+
+    margin-bottom: 45px;
 }
 
 /* banner end */
 
 /* header styles end */
+
+/* question section styles start */
+
+.question {
+    background-color: rgba(13, 19, 33, 0.02);
+    width: 1140px;
+    height: 1393px;
+    border-radius: 16px;
+    text-align: center;
+    margin: 74px 152px 90px 148px;
+}
+
+.question-head {
+    padding: 80px 97px;
+}
+
+.question-body {
+    padding: 0px 47px 48px 47px;
+}
+
+.question-title {
+    color: rgba(13, 19, 33, 1);
+    width: 852px;
+    height: 37px;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.question-subtitle {
+    color: rgba(13, 19, 33, 1);
+    width: 852px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.question-blog-view {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.question-blog-body {
+    width: 477px;
+    height: 219px;
+    margin: 58.95px 98.3px 58.5px 48px;
+}
+
+.question-blog-title {
+    color: rgba(13, 19, 33, 0.7);
+    width: 390px;
+    height: 72px;
+    line-height: 36px;
+    font-family: 24px;
+    font-weight: bold;
+}
+
+.question-blog-subtitle {
+    color: rgba(13, 19, 33, 1);
+    width: 468px;
+    height: 52px;
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+    margin-bottom: 32px;
+}
+
+.question-blog-btn {
+    color: rgba(13, 19, 33, 1);
+    font-size: 20;
+    font-weight: 600;
+    padding: 12px 20px;
+    margin-right: 300px;
+    width: 171px;
+    height: 47px;
+    opacity: 70%;
+}
+
+.question-blog-image {
+    width: 274.17px;
+    height: 240px;
+    margin: 48px 48px 48px 0px;
+}
+
+
+/* question section styles end */
