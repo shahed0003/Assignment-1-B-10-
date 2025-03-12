@@ -235,6 +235,8 @@ nav>button {
 
 /* Inspiration section end */
 
+/* target section start */
+
 .target {
     width: 1140px;
     height: 460px;
@@ -278,10 +280,12 @@ nav>button {
     border-radius: 16px;
     padding: 40px 40px;
 }
-.card-image{
+
+.card-image {
     margin-bottom: 24px;
 }
-.card-title{
+
+.card-title {
     width: 284px;
     height: 36px;
     font-size: 24px;
@@ -289,7 +293,8 @@ nav>button {
     line-height: 36px;
     margin-bottom: 8px;
 }
-.card-subtitle{
+
+.card-subtitle {
     width: 284px;
     height: 52px;
     font-size: 16px;
@@ -298,14 +303,17 @@ nav>button {
     opacity: 70%;
     margin-bottom: 24px;
 }
-.card-anchor{
+
+.card-anchor {
     width: 284px;
     height: 19px;
     font-size: 16px;
     font-weight: bold;
     line-height: auto;
     margin-top: 100px;
+    color: rgba(13, 19, 33, 1);
 }
+
 .card2 {
     text-align: left;
     justify-items: flex-start;
@@ -324,4 +332,86 @@ nav>button {
     height: 299px;
     border-radius: 16px;
     padding: 40px 40px;
+}
+
+/*  target section end */
+
+/* support section start */
+
+.support {
+    width: 1140px;
+    height: 313px;
+    border-radius: 16px;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 49px 150px 80px 100px;
+}
+
+.support-body {
+    width: 1044px;
+    height: 185px;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 24px 48px 64px 48px;
+}
+
+.support-head {
+    padding: 0px 157px 24px 157px;
+}
+
+.support-title {
+    color: rgba(255, 255, 255, 1);
+    width: 292px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 32px;
+    font-weight: bold;
+    justify-self: center;
+    padding: 0px 219px;
+}
+
+.support-subtitle {
+    color: rgba(255, 255, 255, 1);
+    width: 606px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 16px 62px 0px 62px;
+}
+
+.support-input {
+    /* padding: 24px 180px 64px 180px; */
+    width: 684px;
+    height: 57px;
+    /* background-color: rgba(255, 255, 255, 1); */
+    gap: 16px;
+    display: flex;
+
+}
+
+.input1 {
+    color: rgba(13, 19, 33, 0.4);
+    background-color: rgba(255, 255, 255, 1);
+    width: 548px;
+    height: 10px;
+    padding: 19px 20px 19px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.input2 {
+    color: rgba(13, 19, 33, 1);
+    background-color: rgba(255, 255, 255, 1);
+    width: 120px;
+    height: 47px;
+    padding: 10px 16px 10px 16px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
 }
