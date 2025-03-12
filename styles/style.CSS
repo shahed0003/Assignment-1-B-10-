@@ -1,5 +1,5 @@
 /* font styles (Universal) */
-.azeret-mono-normal {
+#azeret-mono-normal {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
     font-style: normal;
@@ -55,7 +55,7 @@ nav>button {
 
 .banner-title {
     color: rgba(13, 19, 33, 1);
-    font-size: 58px;
+    font-size: 48px;
     font-weight: 900;
     width: 998px;
     height: 136px;
@@ -71,6 +71,7 @@ nav>button {
     font-weight: 400;
     opacity: 70%;
     padding-left: 73px;
+    line-height: 26px;
 }
 
 .banner-btn {
@@ -127,14 +128,16 @@ nav>button {
 
 .question-blog-view {
     display: flex;
-    justify-content: space-between;
     margin-bottom: 32px;
+    justify-content: center;
+    align-items: center;
 }
 
 .question-blog-body {
     width: 477px;
     height: 219px;
     margin: 58.95px 98.3px 58.5px 48px;
+    text-align: left;
 }
 
 .question-blog-title {
@@ -144,6 +147,14 @@ nav>button {
     line-height: 36px;
     font-family: 24px;
     font-weight: bold;
+}
+.question-blog-extra{color: rgba(13, 19, 33, 0.7);
+    width: 477px;
+    height: 72px;
+    line-height: 36px;
+    font-family: 24px;
+    font-weight: bold;
+    
 }
 
 .question-blog-subtitle {
@@ -162,6 +173,7 @@ nav>button {
     font-size: 20;
     font-weight: 600;
     padding: 12px 20px;
+    margin-top: 32px;
     margin-right: 300px;
     width: 171px;
     height: 47px;
@@ -176,3 +188,43 @@ nav>button {
 
 
 /* question section styles end */
+
+/* Inspiration section start */
+
+.Inspiration{
+    width: 1140px;
+    height: 775px;
+    margin: 90px 152px 151px 148px;
+    text-align: center;
+    justify-items: center;
+}
+.Inspiration-body{
+    color: rgba(13, 19, 33, 1);
+    width: 852px;
+    height: 113px;
+    margin:0px 144px 48px 144px;
+}
+.Inspiration-title{
+font-size: 32px;
+font-weight: 800;
+line-height: auto;
+}
+.Inspiration-subtitle{
+font-size: 16px;
+font-weight: 400;
+opacity: 70%;
+line-height: 26px;
+}
+.Inspiration-video{
+    margin-top: 100px;
+    padding: 32px 32px 32px 32px;
+    border-radius: 16px;
+    box-shadow:  0px 1px 1px 2px rgba(13, 19, 33, 0.2);
+   
+}
+.Inspiration-iframe{
+    border-radius: 16px;
+}
+
+/* Inspiration section end */
+
