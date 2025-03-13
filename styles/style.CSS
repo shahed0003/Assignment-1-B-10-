@@ -28,7 +28,8 @@ nav>button {
 
 .nav-tag {
     display: flex;
-    justify-content: space-between;
+    gap: 720px;
+    /* justify-content: space-between; */
     padding: 50px 174px 50px 150px;
 }
 
